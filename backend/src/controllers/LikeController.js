@@ -14,7 +14,6 @@ module.exports = {
         loggedDev.likes.push(targetDev._id)
         await loggedDev.save()
 
-    //   req.io.emit('like', dev)
       return res.json(loggedDev)
    }
 }
