@@ -1,10 +1,10 @@
 <h1 align="center">
-      <br> <img alt="Twitter" src="https://user-images.githubusercontent.com/44276302/82100379-db56e580-96df-11ea-887c-f3c26d712196.jpg" /> Clone do Tinder<br/>
+      <br> <img alt="Tinder" src="https://user-images.githubusercontent.com/44276302/82100379-db56e580-96df-11ea-887c-f3c26d712196.jpg" /> Clone do Tinder<br/>
 </h1>
 
 
 <div align="center"> 
-     <img alt="Twitter" src="https://user-images.githubusercontent.com/44276302/82099989-0987f580-96df-11ea-95e1-9b317277ad45.jpg" />
+     <img alt="Tinder" src="https://user-images.githubusercontent.com/44276302/82099989-0987f580-96df-11ea-95e1-9b317277ad45.jpg" />
 </div> 
 
 <p align="center">
