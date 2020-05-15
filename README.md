@@ -1,5 +1,5 @@
 <h1 align="center">
-      <br> :camera: Clone do Tinder<br/>
+      <br> <img alt="Twitter" src="https://user-images.githubusercontent.com/44276302/82100379-db56e580-96df-11ea-887c-f3c26d712196.jpg" /> Clone do Tinder<br/>
 </h1>
 
 
