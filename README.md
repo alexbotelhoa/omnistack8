@@ -1,10 +1,10 @@
 <h1 align="center">
-      <br> :camera: Clone do Feed do Instagram<br/>
+      <br> :camera: Clone do Tinder<br/>
 </h1>
 
 
 <div align="center"> 
-     <img alt="Twitter" src="https://user-images.githubusercontent.com/44276302/81947844-67c9b100-95d7-11ea-9320-42a139a983f9.jpg" />
+     <img alt="Twitter" src="https://user-images.githubusercontent.com/44276302/82099989-0987f580-96df-11ea-95e1-9b317277ad45.jpg" />
 </div> 
 
 <p align="center">
@@ -37,7 +37,7 @@
 
 ```bash
 # Clone o Repositório
-$  git clone https://github.com/alexbotelhoa/omnistack7.git
+$  git clone https://github.com/alexbotelhoa/omnistack8.git
 # Va até o diretório do backend, e instale suas dependências
 $ cd omnistack/backend
 # Instale as dependências
