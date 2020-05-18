@@ -9,6 +9,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.10.1",
     "@react-native-community/masked-view": "^0.1.10",
     "@react-navigation/native": "^5.3.2",
     "@react-navigation/stack": "^5.3.6",

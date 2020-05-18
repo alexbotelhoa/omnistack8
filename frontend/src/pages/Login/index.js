@@ -15,14 +15,8 @@ export default function Login({ history }) {
 
     const { _id } = res.data
 
-    // const data = new FormData()
-    // data.append('username', username)
-    
-    // await api.post('devs', data)
-
     history.push(`/dev/${_id}`)
   }
-
 
   return (
       <div className="login-container">
