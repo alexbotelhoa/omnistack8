@@ -20,6 +20,7 @@ export default Devs = ({ route }) => {
   const [devs, setDevs] = useState([])
   const id = route.params?.user ?? 'teste';
   const navigation = useNavigation();
+  const [matchDev, setMatchDev] = useState(null);
 
   async function loadDevs() {
     const res = await api.get('/devs', {
@@ -60,15 +61,15 @@ export default Devs = ({ route }) => {
     loadDevs()
   }, [id])
 
-  // useEffect(() => {
-  //   const socket = io('http://10.0.2.2:3333', {
-  //     query: { user: id }
-  //   });
+  useEffect(() => {
+    const socket = io('http://10.0.2.2:3333', {
+      query: { user: id }
+    });
 
-  //   socket.on('match', dev => {
-  //     setMatchDev(dev);
-  //   })
-  // }, [id]);
+    socket.on('match', dev => {
+      setMatchDev(dev);
+    })
+  }, [id]);
 
   return (
     <SafeAreaView style={styles.container}>
@@ -103,7 +104,7 @@ export default Devs = ({ route }) => {
         </View>
       {/* ) } */}
 
-  {/* 
+  
       { matchDev && (
         <View style={styles.matchContainer}>
           <Image style={styles.matchImage} source={itsamatch} />
@@ -117,7 +118,7 @@ export default Devs = ({ route }) => {
           </TouchableOpacity>
         </View>
       ) } 
-  */}
+ 
 
     </SafeAreaView>
   );
