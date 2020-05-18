@@ -1,20 +1,20 @@
 import React from 'react';
-import io from 'socket.io-client'
-import api from '../../services/api'
-import { View, Image, Text, TouchableOpacity, Linking } from 'react-native';
-import { useNavigation, useRoute } from '@react-navigation/native';
+import io from 'socket.io-client';
+import api from '../../services/api';
+import {SafeAreaView, View, Image, Text, TouchableOpacity, Linking} from 'react-native';
+import {useNavigation, useRoute} from '@react-navigation/native';
 
-import logoImg from '../../assets/logo.png';
+import logo from '../../assets/logo.png';
 import styles from './styles';
 
-export default function Devs() {
+export default Devs = () => {
+  return (
+    <SafeAreaView style={styles.container}>
+      <Image source={logo} />
 
-
-    render() {
-        return (
-            <View style={styles.container}>
-                <Text>Devs</Text>
-            </View>
-        )
-    }
-}
+      <View style={styles.cardContainer}>
+        
+      </View>
+    </SafeAreaView>
+  );
+};
