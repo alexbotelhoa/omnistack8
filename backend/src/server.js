@@ -13,8 +13,6 @@ const connectedUsers = {}
 io.on('connection', socket => {
    const { user } = socket.handshake.query
    connectedUsers[user] = socket.id
-
-   // console.log('User', `Logado: ${user}`, `Session: ${socket.id}`)
 })
 
 mongoose.connect('mongodb+srv://admin:200679@cluster0-bbus6.mongodb.net/test?retryWrites=true&w=majority', {
