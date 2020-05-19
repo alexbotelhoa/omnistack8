@@ -7,15 +7,13 @@ import logo from '../../assets/logo.png';
 import styles from './styles';
 
 export default Login = ({ navigation }) => {
-  const [user, setUser] = useState('alexbotelhoa');
+  const [user, setUser] = useState('diego3g');
 
   async function handleLogin() {
     const res = await api.post('/devs', { username: user })
     const { _id } = res.data
 
     const storage = await AsyncStorage.setItem('@user', _id)
-
-    console.log('Login', storage)
 
     navigation.navigate('Devs', { user: _id })
   }
