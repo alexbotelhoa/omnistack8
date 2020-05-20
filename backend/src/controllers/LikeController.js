@@ -18,13 +18,11 @@ module.exports = {
 
             loggedSocket && req.io.to(loggedSocket).emit('match', targetDev)
             targetSocket && req.io.to(targetSocket).emit('match', loggedDev)
-
-            console.log('Match', `loggedSocket: ${loggedSocket}`, `targetSocket: ${targetSocket}`)
         }
 
         loggedDev.likes.push(targetDev._id)
         
-        // await loggedDev.save()
+        await loggedDev.save()
 
       return res.json(loggedDev)
    }
