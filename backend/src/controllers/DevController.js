@@ -34,7 +34,7 @@ module.exports = {
             avatar
          })
 
-        // req.io.emit('post', post)
+        req.io.emit('post', post)
         return res.json(dev)
     }
 }
