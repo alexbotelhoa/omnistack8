@@ -65,11 +65,11 @@ O TinDev é um projeto que visa conectar desenvolvedores próximos a você que t
 # Clone o Repositório
 $  git clone https://github.com/alexbotelhoa/omnistack8.git
 # Va até o diretório do backend, e instale suas dependências
-$ cd omnistack/backend
+$ cd backend
 # Instale as dependências
 $ yarn 
 # Rode o backend 
-$ yarn dev 
+$ yarn start 
 ```
 
 ### :computer: Frontend: 
