@@ -7,7 +7,7 @@ import logo from '../../assets/logo.png';
 import styles from './styles';
 
 export default Login = ({ navigation }) => {
-  const [user, setUser] = useState('diego3g');
+  const [user, setUser] = useState('');
 
   async function handleLogin() {
     const res = await api.post('/devs', { username: user })
