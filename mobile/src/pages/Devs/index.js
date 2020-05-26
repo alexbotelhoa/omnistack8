@@ -87,9 +87,8 @@ export default Devs = ({ route }) => {
       </TouchableOpacity>
 
       <View style={styles.cardsContainer}>
-        { devs.length === 0
-          ? <Text style={styles.empty}>Acabou :(</Text>
-          : (
+        { devs.length > 0 &&
+          (
             devs.map((dev, index) => (
               <View key={dev._id} style={[styles.card, { zIndex: devs.length - index }]}>
                 <Image style={styles.avatar} source={{ uri: dev.avatar }} />
@@ -100,6 +99,7 @@ export default Devs = ({ route }) => {
               </View>
             ))
           )
+          // : <Text style={styles.empty}>Acabou :(</Text>
         }
       </View>
 
