@@ -13,7 +13,7 @@ export default Login = ({ navigation }) => {
     const res = await api.post('/devs', { username: user })
     const { _id } = res.data
 
-    const storage = await AsyncStorage.setItem('@user', _id)
+    await AsyncStorage.setItem('@user', _id)
 
     navigation.navigate('Devs', { user: _id })
   }
