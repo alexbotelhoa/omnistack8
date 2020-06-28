@@ -23,8 +23,8 @@
 </p>
 
 <p align="center">
+    <a href="#computer-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
     <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#computer-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#computer_mouse-backend">Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#computer-frontend">Frontend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#iphone-mobile">Mobile</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -40,6 +40,10 @@
 <p align="center"> 
      <img alt="Tinder" src="https://user-images.githubusercontent.com/44276302/82099989-0987f580-96df-11ea-95e1-9b317277ad45.jpg" />
 </p> 
+
+## :computer: Projeto
+
+O TinDev é um projeto que visa conectar desenvolvedores próximos a você que trabalham com as mesmas tecnologias.
 
 ## :rocket: Tecnologias
 
@@ -57,10 +61,6 @@
 -  [React Router](https://github.com/ReactTraining/react-router)
 -  [VS Code](https://code.visualstudio.com/)
 -  [React Native](https://reactnative.dev/)
-
-## :computer: Projeto
-
-O TinDev é um projeto que visa conectar desenvolvedores próximos a você que trabalham com as mesmas tecnologias.
 
 ## :information_source: Desenvolvimento
 
